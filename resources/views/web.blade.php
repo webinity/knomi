@@ -15,5 +15,6 @@
         <h1 class="text-3xl font-bold underline bg-primary-yellow">
             Hello world!
         </h1>
+        <livewire:form/>
     </body>
 </html>
