@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+        <title>Laravel</title>
 
-    @vite(['resources/css/app.css'])
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-</head>
-<body>
+        @vite(['resources/css/app.css'])
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.bunny.net">
+        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+    </head>
+    <body>
     <h1 class="text-3xl font-bold underline bg-primary-yellow">
         Hello world!
     </h1>
+
+<livewire:form/>
+
     <footer class="bg-cover bg-center bg-no-repeat text-primary-black p-8 md:p-16" style="background-image: url('/path/to/placeholder.jpg');">
         <!-- Logo -->
         <div class="flex justify-center mb-6">
@@ -62,7 +65,5 @@
     <div class="w-full h-[50px] md:h-[90px] bg-primary-black flex items-center justify-center">
         <span class="text-white text-base md:text-lg">© 2024</span>
     </div>
-
-
-</body>
+    </body>
 </html>
