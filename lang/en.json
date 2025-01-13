@@ -1,0 +1,76 @@
+{
+    "header.catalog": "Online Catalog / E-shop",
+    "header.login": "Login",
+
+    "header.nav.about": "About Us",
+    "header.nav.products": "Products",
+    "header.nav.downloads": "Downloads",
+    "header.nav.career": "Career",
+    "header.nav.contact": "Contact",
+
+    "homepage.hero.subtitle": "Lorem ipsum dolor sit amet consectetur. Lectus mauris egestas scelerisque et quis lorem. Varius sem mauris nullam montes at et. Vivamus ultrices quisque malesuada integer a. Mattis tempor in volutpat velit elementum egestas elit.",
+    "homepage.hero.title": "MOTTO or GENERAL DESCRIPTION",
+    
+    "homepage.products.title": "Our Products",
+    "homepage.products.turned_parts": "Turned Parts",
+    "homepage.products.formed_tubes": "Formed Tubes",
+    "homepage.products.hydraulic_fittings": "Hydraulic Fittings and Quick Couplings",
+    "homepage.products.pneumatics": "Pneumatics",
+
+    "homepage.turned_parts.content": "<p>Lorem ipsum dolor sit amet consectetur:</p><div><p>Standard brightnesses offered (ISO 7241-A):</p><ul class='list-disc list-inside'><li>10</li><li>12</li><li>16</li><li>20</li></ul></div><p>We make to order.</p>",
+    
+    "homepage.about.subtitle": "Our Company",
+    "homepage.about.title": "Knomi",
+    "homepage.about.content": "Lorem ipsum dolor sit amet consectetur. Lectus mauris egestas scelerisque et quis lorem. Varius sem mauris nullam montes at et. Vivamus ultrices quisque malesuada integer a. Mattis tempor in volutpat velit elementum egestas elit. In vestibulum vel suscipit malesuada integer odio a massa vestibulum. Nunc risus odio lacus tellus nec rutrum volutpat vitae. Lobortis nulla ultrices odio interdum pharetra sit. Faucibus etiam sit sed cras ornare. Elementum cursus consectetur urna ultrices eget morbi faucibus ipsum.",
+    
+    "homepage.cta.first": "We continuously invest in machinery equipment.",
+    "homepage.cta.second": "We offer the best on the market at the best prices.",
+    "homepage.cta.third": "We will manufacture a precise and quality product tailored to your needs.",
+    "homepage.cta.fourth": "We will create products tailored to your needs.",
+    "homepage.cta.fifth": "Contact us today.",
+    "homepage.cta.button": "Contact Us",
+    
+    "homepage.gallery.title": "Gallery",
+    
+    "homepage.downloads.subtitle": "Downloads",
+    "homepage.downloads.title": "Catalog",
+    "homepage.downloads.file": "PDF Download Name",
+    
+    "homepage.contact.subtitle": "Contact",
+    "homepage.contact.title": "Contact Us",
+    "homepage.contact.people.title": "Contact Persons",
+    "homepage.contact.people.name": "Luděk Nejedlo",
+    "homepage.contact.people.position": "CEO",
+    "homepage.contact.email.title": "Email",
+    "homepage.contact.phone.title": "Consultations, Orders, Inquiries",
+    "homepage.contact.address.billing.title": "Billing Address and Company Headquarters",
+    "homepage.contact.address.billing.street": "Roztylská 1860/1",
+    "homepage.contact.address.billing.city": "Prague 4 - Chodov",
+    "homepage.contact.address.billing.zip": "148 00",
+    "homepage.contact.address.billing.country": "Czech Republic",
+    "homepage.contact.address.billing.ic": "ID: 46713603",
+    "homepage.contact.address.billing.dic": "VAT: CZ46713603",
+    "homepage.contact.address.operation.title": "Operating Address",
+    "homepage.contact.address.operation.street": "Bratříkov 63",
+    "homepage.contact.address.operation.city": "Bratříkov",
+    "homepage.contact.address.operation.zip": "468 21",
+    
+    "homepage.contact.form.title": "Non-binding Inquiry",
+
+    "homepage.features.quality": "Quality, satisfaction",
+    "homepage.features.experience": "More than 20 years on the market",
+    "homepage.features.custom": "Custom manufacturing",
+    "homepage.features.delivery": "Express delivery",
+
+    "form.name": "Full Name",
+    "form.email": "E-mail",
+    "form.phone": "Phone Number",
+    "form.message": "Your Message",
+    "form.terms": "I agree with the",
+    "form.terms.link": "personal data processing terms",
+    "form.submit": "Submit",
+
+    "footer.billing.title": "Company Headquarters",
+    "footer.operation.title": "Operating Address",
+    "footer.programs.title": "Grant Programs"
+} 

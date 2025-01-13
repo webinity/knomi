@@ -1,0 +1,77 @@
+{
+    
+    "header.catalog": "Online katalog / E-shop",
+    "header.login": "Přihlásit",
+
+    "header.nav.about": "O nás",
+    "header.nav.products": "Produkty",
+    "header.nav.downloads": "Ke stažení",
+    "header.nav.career": "Kariéra",
+    "header.nav.contact": "Kontakt",
+    
+    "homepage.hero.subtitle": "Lorem ipsum dolor sit amet consectetur. Lectus mauris egestas scelerisque et quis lorem. Varius sem mauris nullam montes at et. Vivamus ultrices quisque malesuada integer a. Mattis tempor in volutpat velit elementum egestas elit.",
+    "homepage.hero.title": "MOTTO nebo POPIS OBECNĚ",
+    
+    "homepage.products.title": "Naše produkty",
+    "homepage.products.turned_parts": "Soustružné díly",
+    "homepage.products.formed_tubes": "Tvářené trubky",
+    "homepage.products.hydraulic_fittings": "Hydraulická šroubení a rychlospojky",
+    "homepage.products.pneumatics": "Pneumatika",
+
+    "homepage.turned_parts.content": "<p>Obecně lorem ipsum lorem ipsum:</p><div><p>Standardně nabízené světlosti (ISO 7241-A):</p><ul class='list-disc list-inside'><li>10</li><li>12</li><li>16</li><li>20</li></ul></div><p>Vyrobíme na zakázku.</p>",
+    
+    "homepage.about.subtitle": "Naše firma",
+    "homepage.about.title": "Knomi",
+    "homepage.about.content": "Lorem ipsum dolor sit amet consectetur. Lectus mauris egestas scelerisque et quis lorem. Varius sem mauris nullam montes at et. Vivamus ultrices quisque malesuada integer a. Mattis tempor in volutpat velit elementum egestas elit. In vestibulum vel suscipit malesuada integer odio a massa vestibulum. Nunc risus odio lacus tellus nec rutrum volutpat vitae. Lobortis nulla ultrices odio interdum pharetra sit. Faucibus etiam sit sed cras ornare. Elementum cursus consectetur urna ultrices eget morbi faucibus ipsum.",
+    
+    "homepage.cta.first": "Neustále investujeme do strojního vybavení.",
+    "homepage.cta.second": "Nabízíme to nejlepší na trhu za nejlepší ceny.",
+    "homepage.cta.third": "Vyrobíme Vám přesný a kvalitní produkt na míru.",
+    "homepage.cta.fourth": "Rádi Vám vytvoříme produkty na míru.",
+    "homepage.cta.fifth": "Kontaktujte nás ještě dnes.",
+    "homepage.cta.button": "Kontaktujte nás",
+    
+    "homepage.gallery.title": "Galerie",
+    
+    "homepage.downloads.subtitle": "Ke stažení",
+    "homepage.downloads.title": "Katalog",
+    "homepage.downloads.file": "Název PDF ke stažení",
+    
+    "homepage.contact.subtitle": "Kontakt",
+    "homepage.contact.title": "Kontaktujte nás",
+    "homepage.contact.people.title": "Kontaktní osoby",
+    "homepage.contact.people.name": "Luděk Nejedlo",
+    "homepage.contact.people.position": "jednatel",
+    "homepage.contact.email.title": "Email",
+    "homepage.contact.phone.title": "Konzultace, objednávky, poptávky",
+    "homepage.contact.address.billing.title": "Fakturační adresa a sídlo společnosti",
+    "homepage.contact.address.billing.street": "Roztylská 1860/1",
+    "homepage.contact.address.billing.city": "Praha 4 - Chodov",
+    "homepage.contact.address.billing.zip": "148 00",
+    "homepage.contact.address.billing.country": "Czech Republic",
+    "homepage.contact.address.billing.ic": "IČ: 46713603",
+    "homepage.contact.address.billing.dic": "DIČ: CZ46713603",
+    "homepage.contact.address.operation.title": "Adresa provozovny",
+    "homepage.contact.address.operation.street": "Bratříkov 63",
+    "homepage.contact.address.operation.city": "Bratříkov",
+    "homepage.contact.address.operation.zip": "468 21",
+    
+    "homepage.contact.form.title": "Nezávazná poptávka",
+   
+    "homepage.features.quality": "Kvalita, spokojenost",
+    "homepage.features.experience": "Více než 20 let na trhu",
+    "homepage.features.custom": "Zakázková výroba",
+    "homepage.features.delivery": "Expresní dodání",
+    
+    "form.name": "Jméno a příjmení",
+    "form.email": "E-mail",
+    "form.phone": "Telefonní číslo",
+    "form.message": "Vaše zpráva",
+    "form.terms": "Souhlasím s",
+    "form.terms.link": "podmínkami zpracování osobních údajů",
+    "form.submit": "Odeslat",
+
+    "footer.billing.title": "Sídlo firmy",
+    "footer.operation.title": "Provozovna",
+    "footer.programs.title": "Dotační programy"
+} 

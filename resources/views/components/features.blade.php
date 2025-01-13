@@ -8,7 +8,7 @@
             </figure>
 
             <span class="lg:text-[24px] text-[18px] text-white font-bold text-center">
-                Kvalita, spokojenost
+                {{ __('homepage.features.quality') }}
             </span>
         </div>
         <div class="flex items-center gap-[20px] justify-center lg:justify-start">
@@ -19,7 +19,7 @@
             </figure>
 
             <span class="lg:text-[24px] text-[18px] text-white font-bold text-center">
-                Více než  20 let na&nbsp;trhu
+                {{ __('homepage.features.experience') }}
             </span>
         </div>
         <div class="flex items-center gap-[20px] justify-center lg:justify-start">
@@ -38,7 +38,7 @@
             </figure>
 
             <span class="lg:text-[24px] text-[18px] text-white font-bold text-center">
-                Zakázková výroba
+                {{ __('homepage.features.custom') }}
             </span>
         </div>
         <div class="flex items-center gap-[20px] justify-center lg:justify-start">
@@ -50,7 +50,7 @@
             </figure>
 
             <span class="lg:text-[24px] text-[18px] text-white font-bold text-center">
-                Expresní dodání
+                {{ __('homepage.features.delivery') }}
             </span>
         </div>
     </div>

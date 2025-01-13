@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\WebController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,10 +14,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('web');
+// Anglická verze
+Route::prefix('en')
+    ->group(function () {
+        Route::get('/', [WebController::class, 'index'])->name('home.en');
+        // Další routy pro anglickou verzi
 });
 
+// Česká verze (výchozí)
+Route::get('/', [WebController::class, 'index'])->name('home');
 Route::get('/kariera', function () {
     return view('career');
 });
