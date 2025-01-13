@@ -254,7 +254,7 @@
 
     <!-- Bottom Black Bar -->
     <div class="w-full h-[50px] md:h-[90px] bg-primary-black flex items-center justify-center">
-        <span class="text-white text-[18px] lg:text-[24px]">© </span>
+        <span class="text-white text-[18px] lg:text-[24px]">© {{ date('Y') }}</span>
     </div>
 
     @vite('resources/js/fslightbox.js')
