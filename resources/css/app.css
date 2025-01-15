@@ -39,3 +39,23 @@ html {
     position: relative;
     z-index: 1;
 }
+
+#career:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(50, 56, 62, 0.7);
+}
+
+#career > * {
+    position: relative;
+    z-index: 1;
+}
+
+.job.active {
+    background: #32383EE5;
+    outline: 4px solid #FFC15B;
+}

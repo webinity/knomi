@@ -73,5 +73,15 @@
 
     "footer.billing.title": "Sídlo firmy",
     "footer.operation.title": "Provozovna",
-    "footer.programs.title": "Dotační programy"
+    "footer.programs.title": "Dotační programy",
+
+    "job.type": "Typ úvazku",
+    "job.location": "Lokalita",
+    "job.deadline": "Termín nástupu",
+    "job.responsibilities": "Co budete mít na starost? ",
+    "job.requirements": "Jak si Vás představujeme? ",
+    "job.offer": "Co nabízíme?",
+    "job.apply": "Jak se přihlásit?",
+    "job.button": "Mám zájem o pozici",
+    "career.no-jobs": "Žádné pozice k dispozici"
 } 

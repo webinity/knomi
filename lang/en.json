@@ -72,5 +72,15 @@
 
     "footer.billing.title": "Company Headquarters",
     "footer.operation.title": "Operating Address",
-    "footer.programs.title": "Grant Programs"
+    "footer.programs.title": "Grant Programs",
+
+    "job.type": "Employment Type",
+    "job.location": "Location",
+    "job.deadline": "Start Date",
+    "job.responsibilities": "Your Responsibilities",
+    "job.requirements": "Requirements",
+    "job.offer": "What We Offer",
+    "job.apply": "How to Apply",
+    "job.button": "I am interested",
+    "career.no-jobs": "No jobs available"
 } 

@@ -72,10 +72,10 @@
                     <div id="about-dropdown" class="absolute left-0 bg-primary-black shadow-md w-48 hidden opacity-0 scale-95 transition-all duration-300">
                         <ul>
                             <li class="border-b-[1px] border-primary-blue hover:bg-[rgba(50,56,62,0.6)]">
-                                <a href="#nase-firma" class="block px-4 py-2 text-[18px] text-white">{{ __('homepage.about.subtitle') }}</a>
+                                <a href="/#nase-firma" class="block px-4 py-2 text-[18px] text-white">{{ __('homepage.about.subtitle') }}</a>
                             </li>
                             <li class="border-b-[1px] border-primary-blue hover:bg-[rgba(50,56,62,0.6)]">
-                                <a href="#galerie" class="block px-4 py-2 text-[18px] text-white">{{ __('homepage.gallery.title') }}</a>
+                                <a href="/#galerie" class="block px-4 py-2 text-[18px] text-white">{{ __('homepage.gallery.title') }}</a>
                             </li>
                         </ul>
                     </div>
@@ -95,16 +95,16 @@
                     <div id="products-dropdown" class="absolute left-0 bg-primary-black shadow-md w-48 hidden opacity-0 scale-95 transition-all duration-300">
                         <ul class="product-nav">
                             <li class="border-b-[1px] border-primary-blue hover:bg-[rgba(50,56,62,0.6)]">
-                                <a href="#soustruzne-dily" class="block px-4 py-2 text-[18px] text-white">{{ __('homepage.products.turned_parts') }}</a>
+                                <a href="/#soustruzne-dily" class="block px-4 py-2 text-[18px] text-white">{{ __('homepage.products.turned_parts') }}</a>
                             </li>
                             <li class="border-b-[1px] border-primary-blue hover:bg-[rgba(50,56,62,0.6)]">
-                                <a href="#tvarene-trubky" class="block px-4 py-2 text-[18px] text-white">{{ __('homepage.products.formed_tubes') }}</a>
+                                <a href="/#tvarene-trubky" class="block px-4 py-2 text-[18px] text-white">{{ __('homepage.products.formed_tubes') }}</a>
                             </li>
                             <li class="border-b-[1px] border-primary-blue hover:bg-[rgba(50,56,62,0.6)]">
-                                <a href="#hydraulicka-sroubeni" class="block px-4 py-2 text-[18px] text-white">{{ __('homepage.products.hydraulic_fittings') }}</a>
+                                <a href="/#hydraulicka-sroubeni" class="block px-4 py-2 text-[18px] text-white">{{ __('homepage.products.hydraulic_fittings') }}</a>
                             </li>
                             <li class="border-b-[1px] border-primary-blue hover:bg-[rgba(50,56,62,0.6)]">
-                                <a href="#pneumatika" class="block px-4 py-2 text-[18px] text-white">{{ __('homepage.products.pneumatics') }}</a>
+                                <a href="/#pneumatika" class="block px-4 py-2 text-[18px] text-white">{{ __('homepage.products.pneumatics') }}</a>
                             </li>
                         </ul>
                     </div>
@@ -113,7 +113,7 @@
                 </div>
 
                 <!-- Odkazy s hover efektem -->
-                <a href="#ke-stazeni" class="text-header-link-color text-[24px] h-[54px] group relative flex items-center">
+                <a href="/#ke-stazeni" class="text-header-link-color text-[24px] h-[54px] group relative flex items-center">
                     {{ __('header.nav.downloads') }}
                     <span class="absolute bottom-0 left-0 w-full h-[5px] bg-primary-blue scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
                 </a>
@@ -121,7 +121,7 @@
                     {{ __('header.nav.career') }}
                     <span class="absolute bottom-0 left-0 w-full h-[5px] bg-primary-blue scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
                 </a>
-                <a href="#kontakt" class="text-header-link-color text-[24px] h-[54px] group relative flex items-center">
+                <a href="/#kontakt" class="text-header-link-color text-[24px] h-[54px] group relative flex items-center">
                     {{ __('header.nav.contact') }}
                     <span class="absolute bottom-0 left-0 w-full h-[5px] bg-primary-blue scale-x-0 group-hover:scale-x-100 transition-all duration-300"></span>
                 </a>
@@ -156,8 +156,8 @@
                                 </svg>
                             </button>
                             <div id="mobile-about-menu" class="hidden mt-4 ml-4 space-y-4">
-                                <a href="#nase-firma" class="block text-white text-[20px]">{{ __('homepage.about.subtitle') }}</a>
-                                <a href="#galerie" class="block text-white text-[20px]">{{ __('homepage.gallery.title') }}</a>
+                                <a href="/#nase-firma" class="block text-white text-[20px]">{{ __('homepage.about.subtitle') }}</a>
+                                <a href="/#galerie" class="block text-white text-[20px]">{{ __('homepage.gallery.title') }}</a>
                             </div>
                         </div>
 
@@ -170,17 +170,17 @@
                                 </svg>
                             </button>
                             <div id="mobile-products-menu" class="hidden mt-4 ml-4 space-y-4 product-nav">
-                                <a href="#soustruzne-dily" class="block text-white text-[20px]">{{ __('homepage.products.turned_parts') }}</a>
-                                <a href="#tvarene-trubky" class="block text-white text-[20px]">{{ __('homepage.products.formed_tubes') }}</a>
-                                <a href="#hydraulicka-sroubeni" class="block text-white text-[20px]">{{ __('homepage.products.hydraulic_fittings') }}</a>
-                                <a href="#pneumatika" class="block text-white text-[20px]">{{ __('homepage.products.pneumatics') }}</a>
+                                <a href="/#soustruzne-dily" class="block text-white text-[20px]">{{ __('homepage.products.turned_parts') }}</a>
+                                <a href="/#tvarene-trubky" class="block text-white text-[20px]">{{ __('homepage.products.formed_tubes') }}</a>
+                                <a href="/#hydraulicka-sroubeni" class="block text-white text-[20px]">{{ __('homepage.products.hydraulic_fittings') }}</a>
+                                <a href="/#pneumatika" class="block text-white text-[20px]">{{ __('homepage.products.pneumatics') }}</a>
                             </div>
                         </div>
 
                         <!-- Ostatní odkazy -->
-                        <a href="#ke-stazeni" class="block text-white text-[24px]">{{ __('header.nav.downloads') }}</a>
+                        <a href="/#ke-stazeni" class="block text-white text-[24px]">{{ __('header.nav.downloads') }}</a>
                         <a href="/kariera" class="block text-white text-[24px]">{{ __('header.nav.career') }}</a>
-                        <a href="#kontakt" class="block text-white text-[24px]">{{ __('header.nav.contact') }}</a>
+                        <a href="/#kontakt" class="block text-white text-[24px]">{{ __('header.nav.contact') }}</a>
 
                         <!-- Tlačítka -->
                         <div class="pt-8 space-y-4">
@@ -416,12 +416,47 @@
         }
 
         function scrollToSection(sectionId) {
-            const section = document.getElementById(sectionId);
+            const section = document.getElementById(sectionId.substring(1));
             if (section) {
-                section.scrollIntoView({});
+                section.scrollIntoView({behavior: 'smooth'});
             }
         }
 
+        @if(Route::currentRouteName() == 'home.en' || Route::currentRouteName() == 'home')
+            // Vybere všechny odkazy s atributem href obsahujícím '/#'
+            document.querySelectorAll('a[href^="/#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    // Získání href atributu, např. '/#ke-stazeni'
+                    const href = this.getAttribute('href');
+
+                    // Najde index znaku '#'
+                    const hashIndex = href.indexOf('#');
+                    if (hashIndex === -1) {
+                        return; // Není hash, nic neprovádí
+                    }
+
+                    // Extrahuje hash část, např. '#ke-stazeni'
+                    const hash = href.substring(hashIndex);
+
+                    // Získání cílového elementu podle ID
+                    const target = document.querySelector(hash);
+                    if (target) {
+                        // Hladké posunutí na cílový element
+                        target.scrollIntoView({
+                            behavior: 'smooth'
+                        });
+
+                        // Volitelně aktualizuje URL hash bez skoku stránky
+                        history.pushState(null, null, hash);
+                    } else {
+                        console.warn('Cílový element nebyl nalezen pro hash:', hash);
+                    }
+                });
+            }); 
+        @endif
+        
         document.addEventListener('DOMContentLoaded', function() {
             // Získání všech odkazů v menu-content
             const menuLinks = document.querySelector('.menu-content').getElementsByTagName('a');
@@ -448,7 +483,9 @@
             // Přidání click event listeneru na každý odkaz
             productLinks.forEach(link => {
                 link.addEventListener('click', function(e) {
-                    e.preventDefault();
+                    @if(Route::currentRouteName() == 'home.en' || Route::currentRouteName() == 'home')
+                        e.preventDefault();
+                    @endif
                     
                     // Získání ID cílové sekce z href atributu
                     const targetId = this.getAttribute('href').substring(1);
@@ -463,14 +500,46 @@
                         image.classList.add('opacity-35');
                     });
 
-                    this.querySelector('img').classList.remove('opacity-35');
+                    const navImage = document.querySelector('.product-nav a[href="/'+targetId+'"] img');
+
+                    if(navImage) {
+                        navImage.classList.remove('opacity-35');
+                    }
                     
                     // Zobrazení cílové sekce
-                    const targetSection = document.getElementById(targetId);
+                    const targetSection = document.getElementById(targetId.substring(1));
                     if (targetSection) {
                         targetSection.classList.remove('hidden');
                         scrollToSection(targetId);
                     }
+                });
+            });
+                        
+            const anchor = window.location.hash;
+
+            // Pokud fragment existuje, najdi odpovídající odkaz
+            if (anchor) {
+                const targetLink = document.querySelector(`.product-nav a[href="/${anchor}"]`);
+
+                console.log(targetLink);
+
+                // Pokud odkaz existuje, klikni na něj
+                if (targetLink) {
+                    // Vytvoření vlastní události click a její vyvolání
+                    const clickEvent = new MouseEvent('click', {
+                        bubbles: true,
+                        cancelable: true,
+                        view: window
+                    });
+                    targetLink.dispatchEvent(clickEvent);
+                }
+            }
+
+            document.querySelectorAll('.job').forEach(job => {
+                const button = job.querySelector('button');
+
+                button.addEventListener('click', function() {
+                    job.classList.toggle('active');
                 });
             });
         });

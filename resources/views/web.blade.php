@@ -6,32 +6,32 @@
     <section>
         <div class="mx-auto flex items-center">
             <ul class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[1px] lg:gap-[4px] lg:py-[4px] py-[1px] product-nav">
-                <li class="w-full">
-                    <a href="#soustruzne-dily" class="relative group">
+                <li class="relative w-full">
+                    <a href="/#soustruzne-dily" class="group">
                         <figure class="bg-[#717384]">
                             <img loading="lazy" src="{{url('/images/img_soustruzne_dily.webp')}}" srcset="{{url('/images/img_soustruzne_dily.webp')}} 1x, {{url('/images/img_soustruzne_dily@2x.webp')}} 2x" alt="{{ __('homepage.products.turned_parts') }}" class="w-full lg:h-[220px] h-[120px] object-cover group-hover:opacity-100 transition-opacity duration-200">
                         </figure>
                         <span class="absolute lg:bottom-[34px] bottom-[10px] w-[200px] left-0 bg-primary-black text-white text-center uppercase font-semibold text-[18px] lg:text-[16px] py-[4px] px-[10px] border-b-4 border-primary-blue">{{ __('homepage.products.turned_parts') }}</span>
                     </a>
                 </li>
-                <li class="w-full">
-                    <a href="#tvarene-trubky" class="relative group">
+                <li class="relative w-full">
+                    <a href="/#tvarene-trubky" class="group">
                         <figure class="bg-[#717384]">
                             <img loading="lazy" src="{{url('/images/img_trubky.webp')}}" srcset="{{url('/images/img_trubky.webp')}} 1x, {{url('/images/img_trubky@2x.webp')}} 2x" alt="{{ __('homepage.products.formed_tubes') }}" class="w-full lg:h-[220px] h-[120px] object-cover opacity-35 group-hover:opacity-100 transition-opacity duration-200">
                         </figure>
                         <span class="absolute lg:bottom-[34px] bottom-[10px] w-[200px] left-0 bg-primary-black text-white text-center lg:text-right uppercase font-semibold text-[18px] py-[4px] px-[10px] border-b-4 border-primary-blue">{{ __('homepage.products.formed_tubes') }}</span>
                     </a>
                 </li>
-                <li class="w-full">
-                    <a href="#hydraulicka-sroubeni" class="relative group">
+                <li class="relative w-full">
+                    <a href="/#hydraulicka-sroubeni" class="group">
                         <figure class="bg-[#717384]">
                             <img loading="lazy" src="{{url('/images/img_sroubeni.webp')}}" srcset="{{url('/images/img_sroubeni.webp')}} 1x, {{url('/images/img_sroubeni@2x.webp')}} 2x" alt="{{ __('homepage.products.hydraulic_fittings') }}" class="w-full lg:h-[220px] h-[120px] object-cover opacity-35 group-hover:opacity-100 transition-opacity duration-200">
                         </figure>
                         <span class="absolute lg:bottom-[34px] bottom-[10px] w-[200px] left-0 bg-primary-black text-white text-center uppercase font-semibold text-[18px] lg:text-[16px] py-[4px] px-[10px] border-b-4 border-primary-blue">{{ __('homepage.products.hydraulic_fittings') }}</span>
                     </a>
                 </li>
-                <li class="w-full">
-                    <a href="#pneumatika" class="relative group">
+                <li class="relative w-full">
+                    <a href="/#pneumatika" class="group">
                         <figure class="bg-[#717384]">
                             <img loading="lazy" src="{{url('/images/img_pneumatika.webp')}}" srcset="{{url('/images/img_pneumatika.webp')}} 1x, {{url('/images/img_pneumatika@2x.webp')}} 2x" alt="{{ __('homepage.products.pneumatics') }}" class="w-full lg:h-[220px] h-[120px] object-cover opacity-35 group-hover:opacity-100 transition-opacity duration-200">
                         </figure>
@@ -105,7 +105,7 @@
                 </p>
             </div>
 
-            <div>
+            <div class="shrink-0">
                 <a href="#kontakt" class="lg:text-[24px] text-[18px] text-black font-semibold lg:py-[12px] py-[8px] lg:px-[30px] px-[15px] bg-primary-yellow block w-fit hover:bg-primary-blue hover:text-white transition-colors duration-200">{{ __('homepage.cta.button') }}</a>
             </div>
         </div>
@@ -151,7 +151,7 @@
                 </p>
             </div>
 
-            <div>
+            <div class="shrink-0">
                 <a href="#kontakt" class="lg:text-[24px] text-[18px] text-black font-semibold lg:py-[12px] py-[8px] lg:px-[30px] px-[15px] bg-primary-yellow block w-fit hover:bg-primary-blue hover:text-white transition-colors duration-200">{{ __('homepage.cta.button') }}</a>
             </div>
         </div>

@@ -10,7 +10,5 @@
                 <img src="{{url('/images/img_hero.webp')}}" srcset="{{url('/images/img_hero.webp')}} 1x, {{url('/images/img_hero@2x.webp')}} 2x" alt="{{ __('homepage.hero.title') }}" class="lg:w-auto w-[240px]">
             </figure>
         </div>
-    
-        {!! $content ?? '' !!}
     </div>
 </section>
