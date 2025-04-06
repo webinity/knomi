@@ -9,8 +9,8 @@
     "header.nav.career": "Kariéra",
     "header.nav.contact": "Kontakt",
     
-    "homepage.hero.subtitle": "Lorem ipsum dolor sit amet consectetur. Lectus mauris egestas scelerisque et quis lorem. Varius sem mauris nullam montes at et. Vivamus ultrices quisque malesuada integer a. Mattis tempor in volutpat velit elementum egestas elit.",
-    "homepage.hero.title": "MOTTO nebo POPIS OBECNĚ",
+    "homepage.hero.subtitle": "Ryze český výrobce přesných rotačních dílů, komponent pro hydrauliku a trubek s certifikací IATF.",
+    "homepage.hero.title": "Váš kvalitní dodavatel",
     
     "homepage.products.title": "Naše produkty",
     "homepage.products.turned_parts": "Soustružné díly",
@@ -18,11 +18,14 @@
     "homepage.products.hydraulic_fittings": "Hydraulická šroubení a rychlospojky",
     "homepage.products.pneumatics": "Pneumatika",
 
-    "homepage.turned_parts.content": "<p>Obecně lorem ipsum lorem ipsum:</p><div><p>Standardně nabízené světlosti (ISO 7241-A):</p><ul class='list-disc list-inside'><li>10</li><li>12</li><li>16</li><li>20</li></ul></div><p>Vyrobíme na zakázku.</p>",
+    "homepage.turned_parts.content": "<p>Nabízíme sériovou výrobu na CNC automatech:</p><div><ul class='list-disc list-outside ml-4'><li class='lg:text-[22px] text-[18px]'>Série od 1000 kusů</li><li class='lg:text-[22px] text-[18px]'>Průměr polotovaru: ⌀ 4 mm – ⌀ 65 mm</li><li class='lg:text-[22px] text-[18px]'>Materiály: 11SMnPb30, 11SMn30, C45, S235, S355, 42CrMo4, 16MnCr5, 1.4301, 1.4305, 1.4571, 1.4404, CuZn40Pb2, AW 2007, AW 6082, AW 7075…</li><li class='lg:text-[22px] text-[18px]'>Možnost obrábění výkovků</li><li class='lg:text-[22px] text-[18px]'>Zajištění povrchové úpravy a tepelného zpracování v kooperaci</li></ul></div><p>Ročně zpracujeme 450 tun materiálu. Vyrobíme na zakázku podle výkresové dokumentace.</p>",
+    "homepage.formed_pipes.content": "<p>Nabízíme kompletní výrobu trubek dle požadavku zákazníka.</p><div><ul class='list-disc list-outside ml-4'><li class='lg:text-[22px] text-[18px]'>Série od 100 kusů</li><li class='lg:text-[22px] text-[18px]'>Trubky ⌀ 4 mm - ⌀ 32 mm</li><li class='lg:text-[22px] text-[18px]'>Materiály: E235, E355, 1.4301, CuZn37…</li><li class='lg:text-[22px] text-[18px]'>Ohýbání na CNC ohýbačkách</li><li class='lg:text-[22px] text-[18px]'>Indukční pájení koncovek</li><li class='lg:text-[22px] text-[18px]'>Předmontáž matic a zářezných kroužků</li><li class='lg:text-[22px] text-[18px]'>Tváření konců</li><li class='lg:text-[22px] text-[18px]'>Včetně povrchových úprav v kooperaci</li></ul></div><p>Ročně naohýbáme 20 000 metrů trubek. Vyrobíme na zakázku podle výkresové dokumentace.</p>",
+    "homepage.hydraulic_fittings.content": "<p>Katalogový sortiment značky KNOMI.</p><ul class='list-disc list-outside ml-4'><li class='lg:text-[22px] text-[18px]'><span>Vlastní výrobní program šroubení dle normy ISO 8434-1 / DIN 2353</span><ul class='list-disc list-outside ml-4 ml-4'><li class='lg:text-[22px] text-[18px]'>Přímá šroubení a hrdla, závitové redukce, oka a průtokové šrouby, kolena, T-kusy</li><li class='lg:text-[22px] text-[18px]'>Dodávky včetně těsnění NBR / Silikon / FPM dle požadavku zákazníka</li><li class='lg:text-[22px] text-[18px]'>Materiál 11SMnPb30+C, povrchová úprava Fe/Zn/12/Cn/T2</li></ul></li><li class='lg:text-[22px] text-[18px]'>Rychlospojky s kuličkovým zámkem dle ISO 7241 – Typ A</li><li class='lg:text-[22px] text-[18px]'>Bezúkapové rychlospojky (Flat-Face) dle ISO 16028</li><li class='lg:text-[22px] text-[18px]'>Rychlospojky RK-12 s bajonetovým zámkem</li></ul>",
+    "homepage.tire.content": "<p>Převzali jsme výrobní sortiment rychloupínacích armaturních prvků společnosti KOPR Kněžmost.</p><div><ul class='list-disc list-outside ml-4'><li class='lg:text-[22px] text-[18px]'>Mosazná šroubení pro rychlé připojování PA trubek o ⌀ 6 – 12 mm</li><li class='lg:text-[22px] text-[18px]'>Pracovní tlak 0,2 – 2,1 MPa</li><li class='lg:text-[22px] text-[18px]'>Teplotní rozsah - 40 °C – 80 °C</li><li class='lg:text-[22px] text-[18px]'>Přímá šroubení, kolena, T-kusy, možnost zakázkové modifikace</li></ul></div>",
     
-    "homepage.about.subtitle": "Naše firma",
+    "homepage.about.subtitle": "O nás",
     "homepage.about.title": "Knomi",
-    "homepage.about.content": "Lorem ipsum dolor sit amet consectetur. Lectus mauris egestas scelerisque et quis lorem. Varius sem mauris nullam montes at et. Vivamus ultrices quisque malesuada integer a. Mattis tempor in volutpat velit elementum egestas elit. In vestibulum vel suscipit malesuada integer odio a massa vestibulum. Nunc risus odio lacus tellus nec rutrum volutpat vitae. Lobortis nulla ultrices odio interdum pharetra sit. Faucibus etiam sit sed cras ornare. Elementum cursus consectetur urna ultrices eget morbi faucibus ipsum.",
+    "homepage.about.content": "Jsme ryze česká strojírenská společnost s tradicí od roku 1992. Specializujeme se na výrobu přesných rotačních dílů na CNC automatech, výrobu šroubení a rychlospojek pro hydrauliku, pneumatiku a zpracování trubek. Disponujeme nejmodernějším vybavením pro výrobu i zajištění kvality a jsme držiteli certifikace IATF 16949.",
     
     "homepage.cta.first": "Neustále investujeme do strojního vybavení.",
     "homepage.cta.second": "Nabízíme to nejlepší na trhu za nejlepší ceny.",
@@ -35,13 +38,19 @@
     
     "homepage.downloads.subtitle": "Ke stažení",
     "homepage.downloads.title": "Katalog",
-    "homepage.downloads.file": "Název PDF ke stažení",
+    "homepage.downloads.file1": "Katalog KNOMI (Hydraulika)",
+    "homepage.downloads.file2": "Katalog KOPR (Pneumatika)",
+    "homepage.downloads.file3": "Certifikáty ISO 9001 a IATF",
+    "homepage.downloads.file4": "Politika kvality a BOZP",
+
     
     "homepage.contact.subtitle": "Kontakt",
     "homepage.contact.title": "Kontaktujte nás",
     "homepage.contact.people.title": "Kontaktní osoby",
-    "homepage.contact.people.name": "Luděk Nejedlo",
-    "homepage.contact.people.position": "jednatel",
+    "homepage.contact.people.name": "Ing. Luděk Nejedlo",
+    "homepage.contact.people.position": "obchodní ředitel",
+    "homepage.contact.people.name2": "Ing. Petr Vlach",
+    "homepage.contact.people.position2": "jednatel",
     "homepage.contact.email.title": "Email",
     "homepage.contact.phone.title": "Konzultace, objednávky, poptávky",
     "homepage.contact.address.billing.title": "Fakturační adresa a sídlo společnosti",
