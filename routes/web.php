@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WebController;
 
@@ -26,4 +27,22 @@ Route::get('/', [WebController::class, 'index'])->name('home');
 Route::get('/kariera', function () {
     return view('career');
 });
+
+// PDF Download routa
+Route::get('/download/{filename}', function ($filename) {
+    $filename = basename($filename);
+
+    if (!Str::endsWith($filename, '.pdf')) {
+        abort(403, 'Soubor nenalezen.');
+    }
+    
+    $filePath = storage_path("app/downloads/{$filename}");
+
+    if (!file_exists($filePath)) {
+        abort(404);
+    }
+    
+
+    return response()->file($filePath);
+})->name('downloads.file');
 
