@@ -74,6 +74,7 @@
     "form.terms": "I agree with the",
     "form.terms.link": "personal data processing terms",
     "form.submit": "Submit",
+    "form.success_message": "Sent successfully.",
 
     "footer.billing.title": "Company Headquarters",
     "footer.operation.title": "Operating Address",
