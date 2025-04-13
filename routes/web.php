@@ -27,6 +27,9 @@ Route::get('/', [WebController::class, 'index'])->name('home');
 Route::get('/kariera', function () {
     return view('career');
 });
+Route::get('/dotacni-programy', function () {
+    return view('dotacni-programy');
+})->name('dotacni-programy');
 
 // PDF Download routa
 Route::get('/download/{filename}', function ($filename) {
