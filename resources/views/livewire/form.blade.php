@@ -1,4 +1,10 @@
 <form wire:submit.prevent="submit" class="w-full">
+    {{-- TODO: dostylovat success --}}
+    @if (session()->has('success'))
+        <div class="bg-green-200 text-green-800 p-4 rounded mb-4">
+            {{ session('success') }}
+        </div>
+    @endif
     <div class="flex flex-col lg:flex-row gap-[20px] lg:gap-[40px] mb-[15px] lg:mb-[30px]">
         <div class="lg:w-1/2">
             <div class="mb-[15px]">

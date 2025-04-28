@@ -137,7 +137,7 @@
         <h2 class="lg:text-[36px] text-[24px] text-primary-black uppercase font-bold lg:py-[20px] py-[10px] lg:px-[10px] px-[5px] inline-block lg:border-b-[6px] border-b-[3px] border-primary-blue lg:mb-[60px] mb-[30px] lg:min-w-[220px] min-w-[140px] leading-[1.25]">{{ __('homepage.downloads.title') }}</h2>
 
         <div class="grid grid-cols-2 gap-[20px] md:grid-cols-4 lg:gap-[40px]">
-            <a href="#" class="group w-full h-[200px] border-[1px] border-primary-black hover:border-primary-blue transition-colors duration-200 text-center flex flex-col items-center justify-center gap-[20px] lg:gap-[30px]">
+            <a href="{{ route('downloads.file', 'Katalog KNOMI (Hydraulika).pdf') }}" target="_blank" class="group w-full h-[200px] border-[1px] border-primary-black hover:border-primary-blue transition-colors duration-200 text-center flex flex-col items-center justify-center gap-[20px] lg:gap-[30px]">
                 <span class="text-[16px] lg:text-[18px] text-primary-black font-bold group-hover:text-primary-blue transition-colors duration-200">{{ __('homepage.downloads.file1') }}</span>
 
                 <figure>
@@ -148,7 +148,7 @@
                 </figure>
             </a>
 
-            <a href="#" class="group w-full h-[200px] border-[1px] border-primary-black hover:border-primary-blue transition-colors duration-200 text-center flex flex-col items-center justify-center gap-[20px] lg:gap-[30px]">
+            <a href="{{ route('downloads.file', 'Katalog KOPR (Pneumatika).pdf') }}" target="_blank" class="group w-full h-[200px] border-[1px] border-primary-black hover:border-primary-blue transition-colors duration-200 text-center flex flex-col items-center justify-center gap-[20px] lg:gap-[30px]">
                 <span class="text-[16px] lg:text-[18px] text-primary-black font-bold group-hover:text-primary-blue transition-colors duration-200">{{ __('homepage.downloads.file2') }}</span>
 
                 <figure>
@@ -159,7 +159,7 @@
                 </figure>
             </a>
 
-            <a href="#" class="group w-full h-[200px] border-[1px] border-primary-black hover:border-primary-blue transition-colors duration-200 text-center flex flex-col items-center justify-center gap-[20px] lg:gap-[30px]">
+            <a href="{{ route('downloads.file', 'Certifikáty ISO 9001 a IATF.pdf') }}" target="_blank" class="group w-full h-[200px] border-[1px] border-primary-black hover:border-primary-blue transition-colors duration-200 text-center flex flex-col items-center justify-center gap-[20px] lg:gap-[30px]">
                 <span class="text-[16px] lg:text-[18px] text-primary-black font-bold group-hover:text-primary-blue transition-colors duration-200">{{ __('homepage.downloads.file3') }}</span>
 
                 <figure>
@@ -170,7 +170,7 @@
                 </figure>
             </a>
 
-            <a href="#" class="group w-full h-[200px] border-[1px] border-primary-black hover:border-primary-blue transition-colors duration-200 text-center flex flex-col items-center justify-center gap-[20px] lg:gap-[30px]">
+            <a href="{{ route('downloads.file', 'Politika kvality a BOZP.pdf') }}" target="_blank" class="group w-full h-[200px] border-[1px] border-primary-black hover:border-primary-blue transition-colors duration-200 text-center flex flex-col items-center justify-center gap-[20px] lg:gap-[30px]">
                 <span class="text-[16px] lg:text-[18px] text-primary-black font-bold group-hover:text-primary-blue transition-colors duration-200">{{ __('homepage.downloads.file4') }}</span>
 
                 <figure>

@@ -74,28 +74,28 @@
     
         <div class="mb-[10px] lg:mb-[30px]">
             <h3 class="font-bold text-[18px] lg:text-[24px]">{{ __('job.responsibilities') }}</h3>
-            <div class="prose max-w-none font-bold text-[16px] lg:text-[18px]">
+            <div class="max-w-none font-bold text-[16px] lg:text-[18px]">
                 {!! $responsibilities !!}
             </div>
         </div>
     
         <div class="mb-[10px] lg:mb-[30px]">
             <h3 class="font-bold text-[18px] lg:text-[24px]">{{ __('job.requirements') }}</h3>
-            <div class="prose max-w-none font-bold text-[16px] lg:text-[18px]">
+            <div class="max-w-none font-bold text-[16px] lg:text-[18px]">
                 {!! $requirements !!}
             </div>
         </div>
     
         <div class="mb-[10px] lg:mb-[30px]">
             <h3 class="font-bold text-[18px] lg:text-[24px]">{{ __('job.offer') }}</h3>
-            <div class="prose max-w-none font-bold text-[16px] lg:text-[18px]">
+            <div class="max-w-none font-bold text-[16px] lg:text-[18px]">
                 {!! $offer !!}
             </div>
         </div>
     
         <div>
             <h3 class="font-bold text-[18px] lg:text-[24px]">{{ __('job.apply') }}</h3>
-            <div class="prose max-w-none font-bold text-[16px] lg:text-[18px]">
+            <div class="max-w-none font-bold text-[16px] lg:text-[18px]">
                 {!! $apply !!}
             </div>
         </div>
