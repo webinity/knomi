@@ -3,14 +3,15 @@
 @section('content')
     @include('components.hero')
 
-<section id="ke-stazeni" class="py-[40px] md:py-[60px] lg:py-[90px]">
+{{-- FIXME: nejdou otevrit obrazky --}}
+<section id="prilohy" class="py-[40px] md:py-[60px] lg:py-[90px]">
     <div class="container max-w-[1256px] mx-auto px-6">
         <span class="lg:text-[36px] text-[24px] text-primary-black uppercase opacity-50 leading-none block">{{ __('homepage.downloads.subtitle') }}</span>
 
         <h2 class="lg:text-[36px] text-[24px] text-primary-black uppercase font-bold lg:py-[20px] py-[10px] lg:px-[10px] px-[5px] inline-block lg:border-b-[6px] border-b-[3px] border-primary-blue lg:mb-[60px] mb-[30px] lg:min-w-[220px] min-w-[140px] leading-[1.25]">{{ __('homepage.downloads.title') }}</h2>
 
         <div class="grid grid-cols-2 gap-[20px] md:grid-cols-4 lg:gap-[40px]">
-            <a href="#" class="group w-full h-[200px] border-[1px] border-primary-black hover:border-primary-blue transition-colors duration-200 text-center flex flex-col items-center justify-center gap-[20px] lg:gap-[30px]">
+            <a href="{{ route('downloads.file', '1. Povinná publicita - úspora energií.pdf') }}" target="_blank" class="group w-full h-[200px] border-[1px] border-primary-black hover:border-primary-blue transition-colors duration-200 text-center flex flex-col items-center justify-center gap-[20px] lg:gap-[30px]">
                 <span class="text-[16px] lg:text-[18px] text-primary-black font-bold group-hover:text-primary-blue transition-colors duration-200">{{ __('homepage.downloads.file1') }}</span>
 
                 <figure>
@@ -21,7 +22,7 @@
                 </figure>
             </a>
 
-            <a href="#" class="group w-full h-[200px] border-[1px] border-primary-black hover:border-primary-blue transition-colors duration-200 text-center flex flex-col items-center justify-center gap-[20px] lg:gap-[30px]">
+            <a href="{{ route('downloads.file', '2. publicita FVE.pdf') }}" target="_blank" class="group w-full h-[200px] border-[1px] border-primary-black hover:border-primary-blue transition-colors duration-200 text-center flex flex-col items-center justify-center gap-[20px] lg:gap-[30px]">
                 <span class="text-[16px] lg:text-[18px] text-primary-black font-bold group-hover:text-primary-blue transition-colors duration-200">{{ __('homepage.downloads.file2') }}</span>
 
                 <figure>
@@ -32,7 +33,7 @@
                 </figure>
             </a>
 
-            <a href="#" class="group w-full h-[200px] border-[1px] border-primary-black hover:border-primary-blue transition-colors duration-200 text-center flex flex-col items-center justify-center gap-[20px] lg:gap-[30px]">
+            <a href="{{ route('downloads.file', '3. Bezodkapová rychlospojka.png') }}" target="_blank" class="group w-full h-[200px] border-[1px] border-primary-black hover:border-primary-blue transition-colors duration-200 text-center flex flex-col items-center justify-center gap-[20px] lg:gap-[30px]">
                 <span class="text-[16px] lg:text-[18px] text-primary-black font-bold group-hover:text-primary-blue transition-colors duration-200">{{ __('homepage.downloads.file3') }}</span>
 
                 <figure>
@@ -43,7 +44,7 @@
                 </figure>
             </a>
 
-            <a href="#" class="group w-full h-[200px] border-[1px] border-primary-black hover:border-primary-blue transition-colors duration-200 text-center flex flex-col items-center justify-center gap-[20px] lg:gap-[30px]">
+            <a href="{{ route('downloads.file', '4. Zakladač.png') }}" target="_blank" class="group w-full h-[200px] border-[1px] border-primary-black hover:border-primary-blue transition-colors duration-200 text-center flex flex-col items-center justify-center gap-[20px] lg:gap-[30px]">
                 <span class="text-[16px] lg:text-[18px] text-primary-black font-bold group-hover:text-primary-blue transition-colors duration-200">{{ __('homepage.downloads.file4') }}</span>
 
                 <figure>
@@ -54,7 +55,7 @@
                 </figure>
             </a>
 
-            <a href="#" class="group w-full h-[200px] border-[1px] border-primary-black hover:border-primary-blue transition-colors duration-200 text-center flex flex-col items-center justify-center gap-[20px] lg:gap-[30px]">
+            <a href="{{ route('downloads.file', '5. Pickupy.png') }}" target="_blank" class="group w-full h-[200px] border-[1px] border-primary-black hover:border-primary-blue transition-colors duration-200 text-center flex flex-col items-center justify-center gap-[20px] lg:gap-[30px]">
                 <span class="text-[16px] lg:text-[18px] text-primary-black font-bold group-hover:text-primary-blue transition-colors duration-200">{{ __('homepage.downloads.file4') }}</span>
 
                 <figure>
@@ -65,7 +66,7 @@
                 </figure>
             </a>
 
-            <a href="#" class="group w-full h-[200px] border-[1px] border-primary-black hover:border-primary-blue transition-colors duration-200 text-center flex flex-col items-center justify-center gap-[20px] lg:gap-[30px]">
+            <a href="{{ route('downloads.file', '6 Inovace hydropnem.png') }}" target="_blank" class="group w-full h-[200px] border-[1px] border-primary-black hover:border-primary-blue transition-colors duration-200 text-center flex flex-col items-center justify-center gap-[20px] lg:gap-[30px]">
                 <span class="text-[16px] lg:text-[18px] text-primary-black font-bold group-hover:text-primary-blue transition-colors duration-200">{{ __('homepage.downloads.file4') }}</span>
 
                 <figure>

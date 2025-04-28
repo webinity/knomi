@@ -248,7 +248,7 @@
             <div class="w-full h-[4px] bg-primary-black mb-[20px] lg:mb-[40px]"></div>
     
             <div class="text-center">
-                <a href="/dotacni-programy" class="text-lg md:text-[24px] font-normal uppercase tracking-wider relative inline-block hover:scale-105 transition-transform">
+                <a href="/dotacni-programy#prilohy" class="text-lg md:text-[24px] font-normal uppercase tracking-wider relative inline-block hover:scale-105 transition-transform">
                     {{ __('footer.programs.title') }}
                     <span class="block w-full h-[4px] bg-primary-blue mt-2 hover:bg-primary-darkBlue transition-colors"></span>
                 </a>
