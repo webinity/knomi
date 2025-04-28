@@ -35,20 +35,21 @@ Route::get('/dotacni-programy', function () {
 })->name('dotacni-programy');
 
 // PDF Download routa
+// PDF Download route - serve from public
 Route::get('/download/{filename}', function ($filename) {
     $filename = basename($filename);
 
     if (!Str::endsWith($filename, '.pdf')) {
-        abort(403, 'Soubor nenalezen.');    
+        abort(403, 'Soubor nenalezen.');
     }
-    
-    $filePath = storage_path("app/downloads/{$filename}");
+
+    $filePath = public_path("downloads/{$filename}");
 
     if (!file_exists($filePath)) {
         abort(404);
     }
-    
 
     return response()->file($filePath);
 })->name('downloads.file');
+
 
