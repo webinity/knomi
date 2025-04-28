@@ -21,9 +21,13 @@ Route::prefix('en')
         // Další routy pro anglickou verzi
 });
 
+// TODO: prekontrolovat pro aj/cs verzi
 // Česká verze (výchozí)
 Route::get('/', [WebController::class, 'index'])->name('home');
 Route::get('/kariera', function () {
     return view('career');
+});
+Route::get('/dotacni-programy', function () {
+    return view('programs');
 });
 
