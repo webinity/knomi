@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 html {
     font-family: 'Source Sans Pro', sans-serif;
     text-rendering: optimizeLegibility;

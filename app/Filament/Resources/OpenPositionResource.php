@@ -27,10 +27,25 @@ class OpenPositionResource extends Resource
                     ->required()
                     ->maxLength(255),
                 Forms\Components\Textarea::make('short_description')
+                    ->rows(10)
                     ->required()
                     ->columnSpanFull(),
                 Forms\Components\RichEditor::make('description')
                     ->required()
+                    ->toolbarButtons([
+                        'blockquote',
+                        'bold',
+                        'bulletList',
+                        'h2',
+                        'h3',
+                        'italic',
+                        'link',
+                        'orderedList',
+                        'redo',
+                        'strike',
+                        'underline',
+                        'undo',
+                    ])
                     ->columnSpanFull(),
             ]);
     }

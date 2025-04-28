@@ -55,21 +55,23 @@
             <button type="button" class="lg:text-[24px] text-[18px] text-primary-black font-semibold lg:py-[12px] py-[8px] lg:px-[30px] px-[15px] bg-primary-yellow flex items-center gap-[10px] items-center w-fit hover:bg-primary-blue hover:text-white transition-colors duration-200 group lg:ml-auto">{{ __('job.button') }} <svg class="fill-primary-black group-hover:fill-white transition-fill duration-200" width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M8.00041 9.31423L0.676758 1.99034L1.99095 0.676147L8.00041 6.68571L14.0099 0.676147L15.3241 1.99043L8.00041 9.31423Z" fill-opacity="0.9"/>
                 </svg>
-                </button>
+            </button>
         </div>
     </div>
 
     <div class="hidden mt-[20px] lg:mt-[50px] group-[.active]:block">
         <div class="mb-[20px]">
             <p class="font-bold text-[16px] lg:text-[18px]">
-                {!! $description !!}
+                <div class="prose prose-xl dark:prose-invert">
+                    {!! $description !!}
+                </div>
             </p>
         </div>
 
     
         <div>
             <h3 class="font-bold text-[18px] lg:text-[24px]">{{ __('job.apply') }}</h3>
-            <div class="prose max-w-none font-bold text-[16px] lg:text-[18px]">
+            <div class="max-w-none font-bold text-[16px] lg:text-[18px]">
                 {!! $apply !!}
             </div>
         </div>
