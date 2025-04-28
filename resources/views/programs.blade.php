@@ -12,7 +12,7 @@
 
         <div class="grid grid-cols-2 gap-[20px] md:grid-cols-4 lg:gap-[40px]">
             <a href="{{ route('downloads.file', '1. Povinná publicita - úspora energií.pdf') }}" target="_blank" class="group w-full h-[200px] border-[1px] border-primary-black hover:border-primary-blue transition-colors duration-200 text-center flex flex-col items-center justify-center gap-[20px] lg:gap-[30px]">
-                <span class="text-[16px] lg:text-[18px] text-primary-black font-bold group-hover:text-primary-blue transition-colors duration-200">{{ __('homepage.downloads.file1') }}</span>
+                <span class="text-[16px] lg:text-[18px] text-primary-black font-bold group-hover:text-primary-blue transition-colors duration-200">Tady muzeme dat nejakej popisek, mel by byt rozume dlouhy</span>
 
                 <figure>
                     <svg width="60" height="61" viewBox="0 0 60 61" fill="none" xmlns="http://www.w3.org/2000/svg">
