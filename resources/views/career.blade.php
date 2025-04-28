@@ -149,7 +149,7 @@
                 </div>
             @endif
             
-            <x-job
+            {{-- <x-job
                 title="CNC OBRÁBĚČ"
                 description="Lorem ipsum dolor sit amet consectetur. Lectus mauris egestas scelerisque et quis lorem. Varius sem mauris nullam montes at et. Vivamus ultrices quisque malesuada integer a.Lorem ipsum dolor sit amet consectetur. Lectus mauris egestas scelerisque et quis lorem. Varius sem mauris nullam montes at et. Vivamus ultrices quisque malesuada integer a.Lorea asdf aefasdhůfoiahsi..."
                 type="Plný úvazek"
@@ -171,7 +171,7 @@
                 requirements="<ul class='list-disc list-inside'><li>Požadavek 1</li><li>Požadavek 2</li></ul>"
                 offer="<ul class='list-disc list-inside'><li>Nabídka 1</li><li>Nabídka 2</li></ul>"
                 apply="Pošlete nám svůj životopis na email: kariera@knomi.cz"
-            />
+            /> --}}
         </div>
     </section>
 @endsection
