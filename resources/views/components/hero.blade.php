@@ -3,7 +3,7 @@
         <div class="flex flex-col lg:flex-row justify-between w-full items-center lg:gap-[40px] gap-[20px]">
             <div class="max-w-[480px]">
                 <h1 class="lg:text-[60px] text-[30px] text-center lg:mb-[30px] mb-[10px]">{{ __('homepage.hero.title') }}</h1>
-                <p class="lg:font-bold font-semibold lg:text-[18px] text-[14px] text-primary-black">{{ __('homepage.hero.subtitle') }}</p>
+                <p class="lg:font-bold font-semibold lg:text-[20px] text-[16px] text-primary-black text-center">{{ __('homepage.hero.subtitle') }}</p>
             </div>
     
             <figure>

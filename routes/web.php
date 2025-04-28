@@ -23,6 +23,7 @@ Route::prefix('en')
         // Další routy pro anglickou verzi
 });
 
+// TODO: prekontrolovat pro aj/cs verzi
 // Česká verze (výchozí)
 Route::get('/', [WebController::class, 'index'])->name('home');
 Route::get('/kariera', function () {
@@ -31,7 +32,7 @@ Route::get('/kariera', function () {
     ]);
 });
 Route::get('/dotacni-programy', function () {
-    return view('dotacni-programy');
+    return view('programs');
 })->name('dotacni-programy');
 
 // PDF Download routa
