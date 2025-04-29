@@ -40,7 +40,7 @@ Route::get('/dotacni-programy', function () {
 Route::get('/download/{filename}', function ($filename) {
     $filename = basename($filename);
 
-    if (!Str::endsWith($filename, '.pdf')) {
+    if (!Str::endsWith($filename, '.pdf') && !Str::endsWith($filename, '.png')) {
         abort(403, 'Soubor nenalezen.');
     }
 
